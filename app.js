@@ -33,7 +33,6 @@ const argv = yargs
 var command = argv._[0];
 
 
-
 if (command === 'add') {
   var note = notes.addNote(argv.title, argv.body);
   if (note) {
